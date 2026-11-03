@@ -89,14 +89,15 @@
   (fill none)
   (layer "Edge.Cuts")
   (tstamp 6c8a3b0a-e7f6-474f-aa3d-057b2162a3d5))
- (gr_text "PLACA KD028 v1.1 - O70mm 4L 1.2mm - BUS ALINEADO - VERIFICAR PINOUT FPC ANTES DE FABRICAR"
-  (at 0 -38 0)
+ (gr_text "KD028 v1.1"
+  (at 0 -30 0)
+
   (layer "B.SilkS")
   (effects
    (font
     (size 1.5 1.5)
     (thickness 0.3))
-   (justify left bottom))
+   (justify center bottom))
   (tstamp 5122032e-7547-4d35-96a7-5252385f7ee2))
  (footprint "local:ESP32-S3-WROOM-1-N8R8"
   (layer "B.Cu")
@@ -110,7 +111,8 @@
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-6eee8bf2afbc))
   (fp_text value "ESP32-S3-WROOM-1-N8R8"
    (at 0 10.5)
@@ -118,7 +120,8 @@
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-43ea6dade22f))
   (fp_line
    (start -12.75 -9.0)
@@ -145,169 +148,169 @@
    (width 0.1)
    (tstamp 00000000-0000-0000-0000-53b707efea7d))
   (pad "1" smd rect
-   (at -13.2 -20.0)
+   (at -13.2 -8.0)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-4dd76718fcf6))
   (pad "2" smd rect
-   (at -13.2 -18.73)
+   (at -13.2 -6.73)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 17 "RGB_B1")
    (tstamp 00000000-0000-0000-0000-8d131295b489))
   (pad "3" smd rect
-   (at -13.2 -17.46)
+   (at -13.2 -5.460000000000001)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 22 "RGB_G0")
    (tstamp 00000000-0000-0000-0000-073219618c91))
   (pad "4" smd rect
-   (at -13.2 -16.19)
+   (at -13.2 -4.190000000000001)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 8 "SPI_CS")
    (tstamp 00000000-0000-0000-0000-10574f85215d))
   (pad "5" smd rect
-   (at -13.2 -14.92)
+   (at -13.2 -2.92)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 9 "SPI_SCL")
    (tstamp 00000000-0000-0000-0000-3f5e8c580719))
   (pad "6" smd rect
-   (at -13.2 -13.65)
+   (at -13.2 -1.6500000000000004)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-07354ccd7627))
   (pad "7" smd rect
-   (at -13.2 -12.379999999999999)
+   (at -13.2 -0.379999999999999)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 7 "USB_DM")
    (tstamp 00000000-0000-0000-0000-5b65d665fd88))
   (pad "8" smd rect
-   (at -13.2 -11.11)
+   (at -13.2 0.8900000000000006)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 6 "USB_DP")
    (tstamp 00000000-0000-0000-0000-c8666e7c8dc3))
   (pad "9" smd rect
-   (at -13.2 -9.84)
+   (at -13.2 2.16)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 14 "I2C_SDA")
    (tstamp 00000000-0000-0000-0000-1d0c6237a178))
   (pad "10" smd rect
-   (at -13.2 -8.57)
+   (at -13.2 3.4299999999999997)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 15 "I2C_SCL")
    (tstamp 00000000-0000-0000-0000-140774ab2e77))
   (pad "11" smd rect
-   (at -13.2 -7.300000000000001)
+   (at -13.2 4.699999999999999)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-713a625d4987))
   (pad "12" smd rect
-   (at -13.2 -6.029999999999999)
+   (at -13.2 5.970000000000001)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 11 "PANEL_RESET")
    (tstamp 00000000-0000-0000-0000-d0443621a5a9))
   (pad "13" smd rect
-   (at -13.2 -4.76)
+   (at -13.2 7.24)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 12 "PANEL_EN")
    (tstamp 00000000-0000-0000-0000-7ae38b446c5b))
   (pad "14" smd rect
-   (at -13.2 -3.4899999999999984)
+   (at -13.2 8.510000000000002)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 3 "V3V3")
    (tstamp 00000000-0000-0000-0000-87cdfe5c3036))
   (pad "15" smd rect
-   (at 13.2 -20.0)
+   (at 13.2 -8.0)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 18 "RGB_B2")
    (tstamp 00000000-0000-0000-0000-92402f77faf4))
   (pad "16" smd rect
-   (at 13.2 -18.73)
+   (at 13.2 -6.73)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 19 "RGB_B3")
    (tstamp 00000000-0000-0000-0000-440037c52b3f))
   (pad "17" smd rect
-   (at 13.2 -17.46)
+   (at 13.2 -5.460000000000001)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 20 "RGB_B4")
    (tstamp 00000000-0000-0000-0000-8afbfe349bd2))
   (pad "18" smd rect
-   (at 13.2 -16.19)
+   (at 13.2 -4.190000000000001)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 21 "RGB_B5")
    (tstamp 00000000-0000-0000-0000-84fdfbe83350))
   (pad "19" smd rect
-   (at 13.2 -14.92)
+   (at 13.2 -2.92)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 23 "RGB_G1")
    (tstamp 00000000-0000-0000-0000-6446535fa19f))
   (pad "20" smd rect
-   (at 13.2 -13.65)
+   (at 13.2 -1.6500000000000004)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 24 "RGB_G2")
    (tstamp 00000000-0000-0000-0000-0b3e34e9cffc))
   (pad "21" smd rect
-   (at 13.2 -12.379999999999999)
+   (at 13.2 -0.379999999999999)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 25 "RGB_G3")
    (tstamp 00000000-0000-0000-0000-9d56ccb65863))
   (pad "22" smd rect
-   (at 13.2 -11.11)
+   (at 13.2 0.8900000000000006)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 26 "RGB_G4")
    (tstamp 00000000-0000-0000-0000-62482f3108c1))
   (pad "23" smd rect
-   (at 13.2 -9.84)
+   (at 13.2 2.16)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 27 "RGB_G5")
    (tstamp 00000000-0000-0000-0000-803a7b8ee818))
   (pad "24" smd rect
-   (at 13.2 -8.57)
+   (at 13.2 3.4299999999999997)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 28 "RGB_R0")
    (tstamp 00000000-0000-0000-0000-e3bee616a318))
   (pad "25" smd rect
-   (at 13.2 -7.300000000000001)
+   (at 13.2 4.699999999999999)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 29 "RGB_R1")
    (tstamp 00000000-0000-0000-0000-66a969b48465))
   (pad "26" smd rect
-   (at 13.2 -6.029999999999999)
+   (at 13.2 5.970000000000001)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 30 "RGB_R2")
    (tstamp 00000000-0000-0000-0000-0fff62ca09cc))
   (pad "27" smd rect
-   (at 13.2 -4.76)
+   (at 13.2 7.24)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 31 "RGB_R3")
    (tstamp 00000000-0000-0000-0000-4f3738e9411e))
   (pad "28" smd rect
-   (at 13.2 -3.4899999999999984)
+   (at 13.2 8.510000000000002)
    (size 1.5 0.8)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 32 "RGB_R4")
@@ -329,7 +332,8 @@
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-a14b111f7414))
   (fp_text value "FPC-40-0.5mm-ST7701S"
    (at 0 3.5)
@@ -337,7 +341,8 @@
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-5e67d17b7b3f))
   (fp_line
    (start -11.0 -2.0)
@@ -364,241 +369,241 @@
    (width 0.1)
    (tstamp 00000000-0000-0000-0000-714eef2eb6f5))
   (pad "1" smd rect
-   (at -10.5 12.5)
+   (at -10.5 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 4 "LED_PLUS")
    (tstamp 00000000-0000-0000-0000-1f4bfcf8cba4))
   (pad "2" smd rect
-   (at -9.95 12.5)
+   (at -9.95 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 5 "LED_MINUS")
    (tstamp 00000000-0000-0000-0000-b8c73402fda6))
   (pad "3" smd rect
-   (at -9.4 12.5)
+   (at -9.4 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-0b38fe9aea3d))
   (pad "4" smd rect
-   (at -8.85 12.5)
+   (at -8.85 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 3 "V3V3")
    (tstamp 00000000-0000-0000-0000-1974a62d158e))
   (pad "5" smd rect
-   (at -8.3 12.5)
+   (at -8.3 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 11 "PANEL_RESET")
    (tstamp 00000000-0000-0000-0000-f4e5cbaa4895))
   (pad "6" smd rect
-   (at -7.75 12.5)
+   (at -7.75 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 10 "SPI_SDA")
    (tstamp 00000000-0000-0000-0000-49fbdbaf420e))
   (pad "7" smd rect
-   (at -7.199999999999999 12.5)
+   (at -7.199999999999999 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 9 "SPI_SCL")
    (tstamp 00000000-0000-0000-0000-e249468d71a3))
   (pad "8" smd rect
-   (at -6.6499999999999995 12.5)
+   (at -6.6499999999999995 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 8 "SPI_CS")
    (tstamp 00000000-0000-0000-0000-a099ad961720))
   (pad "9" smd rect
-   (at -6.1 12.5)
+   (at -6.1 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 16 "RGB_B0")
    (tstamp 00000000-0000-0000-0000-395bd13f9c56))
   (pad "10" smd rect
-   (at -5.55 12.5)
+   (at -5.55 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 17 "RGB_B1")
    (tstamp 00000000-0000-0000-0000-abd58261e95e))
   (pad "11" smd rect
-   (at -5.0 12.5)
+   (at -5.0 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 18 "RGB_B2")
    (tstamp 00000000-0000-0000-0000-07d85dc22b5e))
   (pad "12" smd rect
-   (at -4.449999999999999 12.5)
+   (at -4.449999999999999 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 19 "RGB_B3")
    (tstamp 00000000-0000-0000-0000-47c21e801cd3))
   (pad "13" smd rect
-   (at -3.8999999999999995 12.5)
+   (at -3.8999999999999995 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 20 "RGB_B4")
    (tstamp 00000000-0000-0000-0000-2e1bbd1ed9f0))
   (pad "14" smd rect
-   (at -3.3499999999999996 12.5)
+   (at -3.3499999999999996 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 21 "RGB_B5")
    (tstamp 00000000-0000-0000-0000-f8fcb34cff50))
   (pad "15" smd rect
-   (at -2.799999999999999 12.5)
+   (at -2.799999999999999 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 22 "RGB_G0")
    (tstamp 00000000-0000-0000-0000-8550229140be))
   (pad "16" smd rect
-   (at -2.25 12.5)
+   (at -2.25 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 23 "RGB_G1")
    (tstamp 00000000-0000-0000-0000-89472242940d))
   (pad "17" smd rect
-   (at -1.6999999999999993 12.5)
+   (at -1.6999999999999993 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 24 "RGB_G2")
    (tstamp 00000000-0000-0000-0000-8f9242dc0cb4))
   (pad "18" smd rect
-   (at -1.1499999999999986 12.5)
+   (at -1.1499999999999986 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 25 "RGB_G3")
    (tstamp 00000000-0000-0000-0000-019445520261))
   (pad "19" smd rect
-   (at -0.5999999999999996 12.5)
+   (at -0.5999999999999996 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 26 "RGB_G4")
    (tstamp 00000000-0000-0000-0000-270c2fffa6ed))
   (pad "20" smd rect
-   (at -0.049999999999998934 12.5)
+   (at -0.049999999999998934 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 27 "RGB_G5")
    (tstamp 00000000-0000-0000-0000-c884ecaa29e3))
   (pad "21" smd rect
-   (at 0.5 12.5)
+   (at 0.5 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 28 "RGB_R0")
    (tstamp 00000000-0000-0000-0000-bfa2be6c837c))
   (pad "22" smd rect
-   (at 1.0500000000000007 12.5)
+   (at 1.0500000000000007 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 29 "RGB_R1")
    (tstamp 00000000-0000-0000-0000-6ec6e97eb5ab))
   (pad "23" smd rect
-   (at 1.6000000000000014 12.5)
+   (at 1.6000000000000014 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 30 "RGB_R2")
    (tstamp 00000000-0000-0000-0000-cc3386ac70ac))
   (pad "24" smd rect
-   (at 2.1500000000000004 12.5)
+   (at 2.1500000000000004 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 31 "RGB_R3")
    (tstamp 00000000-0000-0000-0000-27d4589057c0))
   (pad "25" smd rect
-   (at 2.700000000000001 12.5)
+   (at 2.700000000000001 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 32 "RGB_R4")
    (tstamp 00000000-0000-0000-0000-b4b445094e40))
   (pad "26" smd rect
-   (at 3.2500000000000018 12.5)
+   (at 3.2500000000000018 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 33 "RGB_R5")
    (tstamp 00000000-0000-0000-0000-8489bec56e94))
   (pad "27" smd rect
-   (at 3.8000000000000007 12.5)
+   (at 3.8000000000000007 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-95958e15c02a))
   (pad "28" smd rect
-   (at 4.350000000000001 12.5)
+   (at 4.350000000000001 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-b2221741901c))
   (pad "29" smd rect
-   (at 4.900000000000002 12.5)
+   (at 4.900000000000002 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-b1919ee43b92))
   (pad "30" smd rect
-   (at 5.450000000000001 12.5)
+   (at 5.450000000000001 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-99cade55925d))
   (pad "31" smd rect
-   (at 6.0 12.5)
+   (at 6.0 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-0f5601b975b2))
   (pad "32" smd rect
-   (at 6.550000000000001 12.5)
+   (at 6.550000000000001 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-33e82b7614cb))
   (pad "33" smd rect
-   (at 7.100000000000001 12.5)
+   (at 7.100000000000001 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-c967a0b07c3a))
   (pad "34" smd rect
-   (at 7.650000000000002 12.5)
+   (at 7.650000000000002 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-c0dd0f5ceb01))
   (pad "35" smd rect
-   (at 8.200000000000003 12.5)
+   (at 8.200000000000003 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-9a7413de8cc8))
   (pad "36" smd rect
-   (at 8.75 12.5)
+   (at 8.75 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-642f860101de))
   (pad "37" smd rect
-   (at 9.3 12.5)
+   (at 9.3 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-1296536e0435))
   (pad "38" smd rect
-   (at 9.850000000000001 12.5)
+   (at 9.850000000000001 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-2b45b408e43e))
   (pad "39" smd rect
-   (at 10.400000000000002 12.5)
+   (at 10.400000000000002 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
    (tstamp 00000000-0000-0000-0000-512b4990716b))
   (pad "40" smd rect
-   (at 10.950000000000003 12.5)
+   (at 10.950000000000003 4.5)
    (size 0.35 1.5)
    (layers "B.Cu" "B.Mask" "B.Paste")
    (net 1 "GND")
@@ -615,20 +620,22 @@
   (descr "MP2315S-BUCK-3A")
   (tags "MP2315S-BUCK-3A")
   (fp_text reference "U2"
-   (at -24 -4.5)
+   (at 0 -4.5)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-55b1485fbc50))
   (fp_text value "MP2315S-BUCK-3A"
-   (at -24 4.5)
+   (at 0 4.5)
    (layer "B.Fab")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-e1795d1527da))
   (fp_line
    (start -3.0 -3.0)
@@ -690,20 +697,22 @@
   (descr "IND-2.2uH")
   (tags "IND-2.2uH")
   (fp_text reference "L1"
-   (at -17 -3.0)
+   (at 0 -3.0)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-616f58882230))
   (fp_text value "IND-2.2uH"
-   (at -17 3.0)
+   (at 0 3.0)
    (layer "B.Fab")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-184377a81ad2))
   (fp_line
    (start -2.0 -1.5)
@@ -753,20 +762,22 @@
   (descr "TPS61165-BOOST-LED")
   (tags "TPS61165-BOOST-LED")
   (fp_text reference "U3"
-   (at 24 -4.5)
+   (at 0 -4.5)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-ac84fb9564d3))
   (fp_text value "TPS61165-BOOST-LED"
-   (at 24 4.5)
+   (at 0 4.5)
    (layer "B.Fab")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-8262336538e7))
   (fp_line
    (start -3.0 -3.0)
@@ -828,20 +839,22 @@
   (descr "IND-BOOST")
   (tags "IND-BOOST")
   (fp_text reference "L2"
-   (at 17 -3.0)
+   (at 0 -3.0)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-043f8b587826))
   (fp_text value "IND-BOOST"
-   (at 17 3.0)
+   (at 0 3.0)
    (layer "B.Fab")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-c8f260b02919))
   (fp_line
    (start -2.0 -1.5)
@@ -891,20 +904,22 @@
   (descr "BH1750")
   (tags "BH1750")
   (fp_text reference "U5"
-   (at -24 -3.0)
+   (at 0 -3.0)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-ad27e288f3cb))
   (fp_text value "BH1750"
-   (at -24 3.0)
+   (at 0 3.0)
    (layer "B.Fab")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-a7c98a6c6297))
   (fp_line
    (start -2.0 -1.5)
@@ -966,20 +981,22 @@
   (descr "TMP117")
   (tags "TMP117")
   (fp_text reference "U6"
-   (at 24 -3.0)
+   (at 0 -3.0)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-4ed94feb6958))
   (fp_text value "TMP117"
-   (at 24 3.0)
+   (at 0 3.0)
    (layer "B.Fab")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-9711babbc416))
   (fp_line
    (start -2.0 -1.5)
@@ -1041,20 +1058,22 @@
   (descr "USBLC6-2-ESD")
   (tags "USBLC6-2-ESD")
   (fp_text reference "U4"
-   (at -24 -3.0)
+   (at 0 -3.0)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-1c7c4b580eae))
   (fp_text value "USBLC6-2-ESD"
-   (at -24 3.0)
+   (at 0 3.0)
    (layer "B.Fab")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-03b5344bc0a2))
   (fp_line
    (start -2.0 -1.5)
@@ -1116,20 +1135,22 @@
   (descr "BOOT")
   (tags "BOOT")
   (fp_text reference "SW1"
-   (at 20 -3.0)
+   (at 0 -3.0)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-570f030b7b29))
   (fp_text value "BOOT"
-   (at 20 3.0)
+   (at 0 3.0)
    (layer "B.Fab")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-938cd0cda032))
   (fp_line
    (start -1.5 -1.5)
@@ -1173,20 +1194,22 @@
   (descr "RESET")
   (tags "RESET")
   (fp_text reference "SW2"
-   (at 26 -3.0)
+   (at 0 -3.0)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-b655702ee48c))
   (fp_text value "RESET"
-   (at 26 3.0)
+   (at 0 3.0)
    (layer "B.Fab")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-a435954a9234))
   (fp_line
    (start -1.5 -1.5)
@@ -1235,7 +1258,8 @@
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-0c7d2acce7e5))
   (fp_text value "USB-PADS"
    (at 0 3.0)
@@ -1243,7 +1267,8 @@
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-7908ac4a0746))
   (fp_line
    (start -8.0 -1.5)
@@ -1300,20 +1325,22 @@
   (descr "MOSFET-PANEL-EN")
   (tags "MOSFET-PANEL-EN")
   (fp_text reference "Q1"
-   (at -12 -2.5)
+   (at 0 -2.5)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-9deaad7ea5a7))
   (fp_text value "MOSFET-PANEL-EN"
-   (at -12 2.5)
+   (at 0 2.5)
    (layer "B.Fab")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-b9466e553bd7))
   (fp_line
    (start -1.5 -1.0)
@@ -1361,12 +1388,13 @@
   (tstamp 00000000-0000-0000-0000-d485d294e8ce)
   (at 0.0 31.0 0)
   (fp_text reference "H1"
-   (at 0.0 29.0)
+   (at 0 -2.0)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-5a85e5d1dde5))
   (pad "1" thru_hole circle
    (at 0 0)
@@ -1380,12 +1408,13 @@
   (tstamp 00000000-0000-0000-0000-e723424b05e6)
   (at -26.85 -15.5 0)
   (fp_text reference "H2"
-   (at -26.85 -17.5)
+   (at 0 -2.0)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-5ea5dee7b7ba))
   (pad "1" thru_hole circle
    (at 0 0)
@@ -1399,12 +1428,13 @@
   (tstamp 00000000-0000-0000-0000-2d6e4b799aae)
   (at 26.85 -15.5 0)
   (fp_text reference "H3"
-   (at 26.85 -17.5)
+   (at 0 -2.0)
    (layer "B.SilkS")
    (effects
     (font
      (size 1 1)
-     (thickness 0.15)))
+     (thickness 0.15))
+    (justify center))
    (tstamp 00000000-0000-0000-0000-44a43796ed09))
   (pad "1" thru_hole circle
    (at 0 0)
@@ -1623,76 +1653,84 @@
   (layer "B.Cu")
   (net 7)
   (tstamp 53f4b28e-1625-4737-af3f-c1ff63984457))
- (gr_text "RGB B0-B5 azul | G0-G5 verde | R0-R5 rojo"
-  (at -18 12 0)
+ (gr_text "RGB18"
+  (at -9 12 0)
+
   (layer "B.SilkS")
   (effects
    (font
     (size 1.0 1.0)
     (thickness 0.2))
-   (justify left bottom))
+   (justify center bottom))
   (tstamp 50d95fe8-af6e-435a-9fea-028d91b2a2f1))
- (gr_text "SPI CS/SCL/SDA - canal izquierdo"
-  (at -30 12 0)
+ (gr_text "SPI"
+  (at -28 12 0)
+
   (layer "B.SilkS")
   (effects
    (font
     (size 1.0 1.0)
     (thickness 0.2))
-   (justify left bottom))
+   (justify center bottom))
   (tstamp 7c8f83da-f75c-4d37-9a39-39580c84e2e5))
- (gr_text "5V 1.5mm"
-  (at -32 -12 0)
+ (gr_text "5V"
+  (at -30 -12 0)
+
   (layer "B.SilkS")
   (effects
    (font
     (size 1.0 1.0)
     (thickness 0.2))
-   (justify left bottom))
+   (justify center bottom))
   (tstamp 97570dc4-2191-4a55-993f-c2a963d392b4))
- (gr_text "LED+ 1.0mm"
-  (at 26 -12 0)
+ (gr_text "LED+"
+  (at 28 -12 0)
+
   (layer "B.SilkS")
   (effects
    (font
     (size 1.0 1.0)
     (thickness 0.2))
-   (justify left bottom))
+   (justify center bottom))
   (tstamp e58d4921-1bf6-45c2-b194-d3c6f7038f22))
- (gr_text "3V3 1.0mm"
-  (at -6 -8 0)
+ (gr_text "3V3"
+  (at 0 -8 0)
+
   (layer "B.SilkS")
   (effects
    (font
     (size 1.0 1.0)
     (thickness 0.2))
-   (justify left bottom))
+   (justify center bottom))
   (tstamp 5f0fb5c1-8e51-431d-80ef-0ac94ce315ee))
- (gr_text "J1 PIN 1 - 10 - 20 - 30 - 40"
-  (at -10 15 0)
+ (gr_text "J1 PIN 1-40"
+  (at 0 15 0)
+
   (layer "B.SilkS")
   (effects
    (font
     (size 1.0 1.0)
     (thickness 0.2))
-   (justify left bottom))
+   (justify center bottom))
   (tstamp 05a491e9-6bec-4ea3-8126-810ac5a9160e))
- (gr_text "J2 VBUS D- D+ GND"
-  (at -8 31 0)
+ (gr_text "J2"
+  (at 0 31 0)
+
   (layer "B.SilkS")
   (effects
    (font
     (size 1.0 1.0)
     (thickness 0.2))
-   (justify left bottom))
+   (justify center bottom))
   (tstamp 87108bd2-156a-422d-9e46-20025805260c))
- (gr_text "TP1 5V  TP2 3V3  TP3 GND  TP4 LED+"
-  (at -18 33 0)
+ (gr_text "TP1-TP4"
+  (at 0 28 0)
+
   (layer "B.SilkS")
   (effects
    (font
     (size 1.0 1.0)
     (thickness 0.2))
-   (justify left bottom))
+   (justify center bottom))
   (tstamp 2fcefa65-3468-4b37-a854-c30989113529))
 )
