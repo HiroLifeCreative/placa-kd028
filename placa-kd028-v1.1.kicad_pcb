@@ -89,7 +89,7 @@
   (fill none)
   (layer "Edge.Cuts")
   (tstamp 6c8a3b0a-e7f6-474f-aa3d-057b2162a3d5))
- (gr_text "KD028 v1.1"
+ (gr_text "AxionOS v1"
   (at 0 -30 0)
 
   (layer "B.SilkS")
@@ -98,7 +98,37 @@
     (size 1.5 1.5)
     (thickness 0.3))
    (justify center bottom))
-  (tstamp 5122032e-7547-4d35-96a7-5252385f7ee2))
+  (tstamp de2b0c38-05ae-4307-85db-12d3e5baea67))
+ (gr_text "for BMW 330i G20"
+  (at 0 -27.3 0)
+
+  (layer "B.SilkS")
+  (effects
+   (font
+    (size 1.0 1.0)
+    (thickness 0.2))
+   (justify center bottom))
+  (tstamp 0f9e3377-f4c5-40af-bd38-4ccb3186f3c2))
+ (gr_text "KD028 v1.1"
+  (at 0 -24.6 0)
+
+  (layer "B.SilkS")
+  (effects
+   (font
+    (size 1.0 1.0)
+    (thickness 0.2))
+   (justify center bottom))
+  (tstamp 21095b8a-322a-4d3c-a6e7-02ef169ea4e4))
+ (gr_text "Nelson Herrera"
+  (at 0 20 0)
+
+  (layer "B.SilkS")
+  (effects
+   (font
+    (size 1.25 1.25)
+    (thickness 0.25))
+   (justify center bottom))
+  (tstamp 3c1fd804-3dfe-48df-80c6-37924c4870cc))
  (footprint "local:ESP32-S3-WROOM-1-N8R8"
   (layer "B.Cu")
   (tstamp 00000000-0000-0000-0000-9a41f8b89b63)
